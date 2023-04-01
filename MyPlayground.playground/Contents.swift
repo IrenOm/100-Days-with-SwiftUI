@@ -35,7 +35,6 @@ Apple engineer
 """
 
 
-
 let actor = "Denzel Washington"
 let filename = "paris.jpg"
 let result = " :) You win! "
@@ -88,6 +87,9 @@ doubleNumber
 someCharacter
 trueOrFalse
 
+
+// MARK: How to store truth with Booleans
+
 let goodDogs = true
 let gameOver = false
 let isMultiple = 120.isMultiple(of: 3)
@@ -103,4 +105,36 @@ print(dayOrNight)
 dayOrNight.toggle()
 print(dayOrNight)
 
+// How to join strings together
 
+let firstPart = "Hello,"
+let secondPart = "world!"
+let greeting = firstPart + secondPart
+
+let people = "Haters"
+let action = "hate"
+let lyric = people + "gonna" + action
+
+// Checkopin 1 - Convert a constant holding any temp in Celsius. Convert temp to Farenheit by multiplying by 9, divading by 5, then adding 32
+
+let tempInCelsius = 25.0
+var tempInFarenheit = (tempInCelsius * 9) / 5 + 32
+print(tempInFarenheit)
+
+
+
+
+
+let luggageCode = "1" + "2" + "3"
+
+let quote1 = "Then he tapped a sign saying \"Beleve\" and walked away."
+
+let name1 = "Taylor"
+let age1 = 26
+let message = "Hello, my name is \(name1) and I am \(age1) years old"
+print(message)
+
+let number3 = 11
+let missonMessage = "Apollo \(number3) landed on the moon."
+
+print("5 * 5 is \(5 * 5)")
