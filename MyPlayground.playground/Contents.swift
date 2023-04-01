@@ -115,16 +115,6 @@ let people = "Haters"
 let action = "hate"
 let lyric = people + "gonna" + action
 
-// Checkopin 1 - Convert a constant holding any temp in Celsius. Convert temp to Farenheit by multiplying by 9, divading by 5, then adding 32
-
-let tempInCelsius = 25.0
-var tempInFarenheit = (tempInCelsius * 9) / 5 + 32
-print(tempInFarenheit)
-
-
-
-
-
 let luggageCode = "1" + "2" + "3"
 
 let quote1 = "Then he tapped a sign saying \"Beleve\" and walked away."
@@ -138,3 +128,13 @@ let number3 = 11
 let missonMessage = "Apollo \(number3) landed on the moon."
 
 print("5 * 5 is \(5 * 5)")
+
+// Checkopin 1 - Convert a constant holding any temp in Celsius. Convert temp to Farenheit by multiplying by 9, divading by 5, then adding 32
+
+let tempInCelsius = 25.0
+var tempInFarenheit = (tempInCelsius * 9) / 5 + 32
+print(tempInFarenheit)
+
+
+
+
